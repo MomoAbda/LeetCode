@@ -10,8 +10,8 @@ namespace ConsoleApp14
         {
             Console.WriteLine("Hello World!");
 
-         var res =   AddTwoNumber.Test();
-
+            //   var res =   AddTwoNumber.Test();
+            var res = LongestSubstringWithoutRepeatingCharacters.Test("brnk");
 
 
 
