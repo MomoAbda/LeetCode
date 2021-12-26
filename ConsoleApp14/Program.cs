@@ -8,15 +8,10 @@ namespace ConsoleApp14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            //   var res =   AddTwoNumber.Test();
-            var res = LongestSubstringWithoutRepeatingCharacters.Test("brnk");
-
-
-
+            // var res =   AddTwoNumber.Test();
+            // var res = LongestSubstringWithoutRepeatingCharacters.Test("brnk");
+            NoelTree.Write();
+            Console.ReadLine();
         }
-
-     
     }
 }
