@@ -9,11 +9,13 @@ namespace LeetCode.Problem
 
         public static void Write()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.Write("Enter max line  : ");
             var nbLine = int.Parse(Console.ReadLine());
             maxColumn = Console.LargestWindowHeight - 1;
             int centerOfScreen = maxColumn / 2;
 
+      
             for (int i = 0; i < nbLine; i++)
             {
                 var numberOfCharToWrite = (i * 2) + 1;
