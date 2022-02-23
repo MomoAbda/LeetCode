@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T21:12:22.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AhRj6cAYoWqAzDVoRgZw" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T21:13:53.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="u43MET88Chq_LAt-1PRK" version="16.6.3" type="github">
   <diagram id="c6mJYmaqCusoTaIBJFSl" name="Page-1">
     <mxGraphModel dx="2249" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,10 +239,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-I1qoJd3Gczy4PTa_OBQ-92" value="BFF Change when UI change (High couple)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="400" height="30" as="geometry" />
+          <mxGeometry x="10" y="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-I1qoJd3Gczy4PTa_OBQ-93" value="Domain service change very rarely (NOT LINKED TO UI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="500" height="30" as="geometry" />
+          <mxGeometry x="10" y="60" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-I1qoJd3Gczy4PTa_OBQ-94" value="IF BFF.X is broken we lost X component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="400" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-I1qoJd3Gczy4PTa_OBQ-95" value="IF A is broken we (potentialy) lost X+Y component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry y="430" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
